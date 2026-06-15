@@ -8,16 +8,16 @@ unit=input("Kilogram or pounds?(K or L):")
 
 if unit =='K':
     weight*=2.205
-    unit="Kgs."
+    unit="Lbs"
     print(f"Your Weight is: {round(weight,1)} {unit}")
 
 elif unit =="L":
     weight/=2.205
-    unit="Lbs"
+    unit="Kgs"
     print(f"Your Weight is: {round(weight,1)} {unit}")
 
 else:
     print(f"{unit} is not valid. ")
 
 
-    
+
