@@ -25,4 +25,4 @@ else:
     result="Invalid operator"
 
 
-print(f"{num1} + {operator} + {num2} = {result}")
+print(f"{num1} {operator} {num2} = {result}")
