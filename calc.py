@@ -23,4 +23,4 @@ else:
     result="Invalid operator"
 
 
-print(f"{num1} {operator} {num2} = {result:.2f}")
+print(f"{num1} {operator} {num2} = {result}")
