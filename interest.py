@@ -7,6 +7,8 @@ rate=int(input("Enter the rate of interest:"))
 
 
 while priniciple<=0:
-    print("Principle amount could not be zero.")
 
     priniciple=int(input("Enter th principle amount:"))
+    print("Principle amount could not be zero.")
+
+   
