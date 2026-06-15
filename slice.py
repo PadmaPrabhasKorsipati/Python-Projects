@@ -4,7 +4,7 @@ email = input("Enter your Email:")
 index=email.index("@")
 
 username=email[:index]
-domain=email[index:]
+domain=email[index+1:]
 
 
 print(f"The Username is:{username}")
