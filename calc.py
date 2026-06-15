@@ -1,4 +1,4 @@
-operator = input("Enter an Operator (+ or - or * or /)")
+operator = input("Enter an Operator (+ or - or * or /):")
 
 num1=int(input("Enter the First Number:"))
 num2=int(input("Enter the second Number:"))
