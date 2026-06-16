@@ -5,10 +5,6 @@ time=0
 
 rate=0
 
-"""time=int(input("Enter the duration of loan:"))
-
-rate=int(input("Enter the rate of interest:"))"""
-
 
 while principle<=0:
 
