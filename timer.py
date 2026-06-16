@@ -6,7 +6,7 @@ for x in range(my_time,0,-1):
 
     seconds=x%60
     
-    print(f"00:00:{seconds:02}")
+    print(f"00:00:{seconds:03}")
 
     time.sleep(1)
 
