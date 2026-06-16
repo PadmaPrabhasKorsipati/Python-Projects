@@ -35,6 +35,7 @@ for question in questions:
     if guess==answers[question_num]:
 
         print("CORRECT!")
+        score+=1
 
     else:
         print("INCORRECT!")
@@ -44,6 +45,31 @@ for question in questions:
     question_num+=1
 
 
+print("-------------")
+
+
+print("       RESULTS")
+
+print("ANSWERS: ",end=" ")
+
+for answer in answers:
+    print(answer,end=" ")
+
+print()
+
+print("Guesses: ",end=" ")
+
+for guess in guesses:
+    print(guess,end=" ")
+
+print()
+
+
+score_percentage=int((score/len(questions))*100)
+
+print(f"Your Score: {score}/{len(questions)}")
+
+print(f"Percentage: {score_percentage}%")
 
 
 
