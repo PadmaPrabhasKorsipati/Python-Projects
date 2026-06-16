@@ -34,4 +34,4 @@ rate=rate/100
 
 Total=principle*pow(1+(rate/12),12*time)
 
-print(f"The Total Compound interest is:{Total:2f}")
+print(f"The Total Compound interest is:{Total:.2f}")
