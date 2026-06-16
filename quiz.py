@@ -14,7 +14,7 @@ options=(("A.116","B.117","C.118","D.119"),
          ("A.Mercury","B.Venus","C.Earth","D.Mars"))
 
 
-answers=("C","D","A","B")
+answers=("C","D","A","A","B")
 guesses=[]
 score= 0
 question_num=0
