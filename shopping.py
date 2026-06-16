@@ -14,7 +14,7 @@ while True:
         break
 
     else:
-        food.append(food)
+        foods.append(food)
         price=float(input(f"Enter the price of ₹{food}:"))
         prices.append(price)
 
