@@ -7,8 +7,8 @@ rate=0
 
 
 while principle<=0:
+    principle=int(input("Enter th principle amount:"))
 
-    priniciple=int(input("Enter th principle amount:"))
     if principle <=0:
       print("Principle amount could not be zero.")
 
@@ -25,6 +25,10 @@ while time<=0:
 
    if time<=0:
       print("Time could not be zero.")
+
+
+rate=rate/100
+
    
 
 
