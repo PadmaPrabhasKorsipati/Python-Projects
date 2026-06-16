@@ -1,12 +1,12 @@
 
 menu={
     "Pizza":200,
-    "nachos":160,
+    "Nachos":160,
     "Popcorn":100,
     "Fries":70,
     "Chips":60,
-    "pretzel":150,
-    "soda":50,
+    "Pretzel":150,
+    "Soda":50,
     "Lemonade":70
 }
 
@@ -22,7 +22,7 @@ print("------------------------")
 
 
 while True:
-    food=input("Select an item (q to quit):").lower()
+    food=input("Select an item (q to quit):").capitalize()
     
     if food=='q':
         break
