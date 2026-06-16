@@ -1,6 +1,6 @@
 
 questions=("How many elements are in the periodic table?:",
-           "Which animal lays the largestv egg?:"
+           "Which animal lays the largest egg?:",
            "What is the most abundant gas in the earth's atmosphere?:",
            "How many bones are in the Human body?:",
            "Which planet in the solar system is the hottest?:")
@@ -39,7 +39,7 @@ for question in questions:
     else:
         print("INCORRECT!")
         print(f"The Correct answer is {answers[question_num]}.")
-        
+
 
     question_num+=1
 
