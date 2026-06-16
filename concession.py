@@ -24,7 +24,7 @@ print("------------------------")
 while True:
     food=input("Select an item (q to quit):").capitalize()
     
-    if food=='q':
+    if food.lower()=='q':
         break
 
     elif menu.get(food) is not None:
