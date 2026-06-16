@@ -67,7 +67,7 @@ print()
 
 score_percentage=int((score/len(questions))*100)
 
-print(f"Your Score: {score}/{len(questions)}")
+print(f"\nYour Score: {score}/{len(questions)}")
 
 print(f"Percentage: {score_percentage}%")
 
